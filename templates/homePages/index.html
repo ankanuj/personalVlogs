@@ -1,0 +1,112 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <div class="container-fluid  bannerContainer">
+  </div>
+  <!--Personal details container-->
+  <div class="container-fluid homePageContainer">
+   
+      <h1 class="text-center blockTitle pt-2 pb-2">About</h1>
+    
+    <div class="container personalDetailsContainer">
+      <img class="box1 rounded-circle" src="{% static 'img/profile.jpg' %}">
+     <div class="box2 ">
+      <div class="container personalDetailsBlock">
+        <div class="personalDetails">
+          <h2 class="text-center personalDetailsTitle"><span>Anuj Chaudhary</span>
+            <hr class="underline">
+          </h2>
+          <div class="row ">
+            <div class="col-lg-3 col"><p class="fieldTitle">Full Name:</p></div>
+            <div class="col-lg-8 col-7"><p class="fieldValue">Chaudhary Anuj Kumar Singh</p></div>
+          </div>
+          <div class="row ">
+            <div class="col-lg-3 col"><p class="fieldTitle">Email:</p></div>
+            <div class="col-lg-8 col-7"><p class="fieldValue">s.singhanuj122@gmail.com</p></div>
+          </div>
+          <div class="row ">
+            <div class="col-lg-3 col"><p class="fieldTitle">Highest Education:</p></div>
+            <div class="col-lg-6 col-7"><p class="fieldValue">B.tech(cse)</p></div>
+          </div>
+          <div class="row ">
+            <div class="col-lg-3 col"><p class="fieldTitle">From:</p></div>
+            <div class="col-lg-6 col-7"><p class="fieldValue">Aligarh, Uttar Pradesh</p></div>
+          </div>
+          <div class="row ">
+            <div class="col-lg-3 col"><p class="fieldTitle">Job status:</p></div>
+            <div class="col-lg-8 col-7"><p class="fieldValue">Fresher</p></div>
+          </div>
+        </div>
+      </div>
+     </div>
+    </div>
+  </div>
+
+  <!--Instagram container-->
+  <div class="Container instagramContainer ">
+    <h1 class="text-center blockTitle pt-2 pb-2">Instagram</h1>
+    <div class="container instagramTopPhotos">
+      <div class="row mx-auto">
+        <div class="col-md-3 ">
+          <a class="nav-link" href="#">
+            <img class="img-fluid img-responsive" src="{% static 'img/insta1.jpg' %}">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a class="nav-link" href="#">
+            <img class="img-fluid img-responsive" src="{% static 'img/insta1.jpg' %}">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a class="nav-link" href="#">
+            <img class="img-fluid img-responsive" src="{% static 'img/insta1.jpg' %}">
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a class="nav-link" href="#">
+            <img class="img-fluid img-responsive" src="{% static 'img/insta1.jpg' %}">
+          </a>
+        </div>
+        <div class="col-md-3 hiddenItemsforMobile">
+          <a class="nav-link" href="#">
+            <img class="img-fluid img-responsive" src="{% static 'img/insta1.jpg' %}">
+          </a>
+        </div>
+        <div class="col-md-3 hiddenItemsforMobile">
+          <a class="nav-link" href="#">
+            <img class="img-fluid img-responsive" src="{% static 'img/insta1.jpg' %}">
+          </a>
+        </div>
+        <div class="col-md-3 hiddenItemsforMobile">
+          <a class="nav-link" href="#">
+            <img class="img-fluid img-responsive" src="{% static 'img/insta1.jpg' %}">
+          </a>
+        </div>
+        <div class="col-md-3 hiddenItemsforMobile">
+          <a class="nav-link" href="#">
+            <img class="img-fluid img-responsive" src="{% static 'img/insta1.jpg' %}">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid healthAndFitness">
+    <h1 class="text-center blockTitle pt-2 pb-2">Health and Fitness</h1>
+    <div class="container fitnessBlock">
+      <div class="fitTipBox">
+        <h3 class="pt-2">Importance of Daily Workout</h3>
+        <hr class="underline">
+        <ul>
+          <li><p>Block negative thoughts and keep mind calm.</p></li>
+          <li><p>Feel energetic.</p></li>
+          <li><p>Have stronger bones, muscles and joints and lower risk of developing osteoporosis.</p></li>
+          <li><p>have a lower blood cholesterol level and many more.</p></li>
+        </ul>
+      </div>
+      <div class="fitTipImage">
+        <img src="{% static 'img/h&F.jpg' %}" class="img-fluid">
+      </div>
+    </div>
+  </div>
+{% endblock %}

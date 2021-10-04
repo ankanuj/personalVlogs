@@ -1,0 +1,195 @@
+.bannerContainer{
+  width: 100%;
+  height: 575px;
+  background-image: url("../img/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar{
+  font-weight: 700;
+  font-size: 28px;
+  height: 75px;
+  background-color: none;
+  box-shadow: 5px 5px 5px 0px ;
+}
+.navbar-brand{
+  font-size: 34px;
+  font-family: 'Courgette', cursive;
+}
+.blockTitle{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0px 1.8px 4px 0px rgba(158, 121, 130, 0.911);
+  font-family: 'Courgette', cursive;
+  border-radius: 10px;
+
+}
+.personalDetailsContainer{
+  position: relative;
+  margin-top: 20px;
+}
+.box1{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: -35px;
+  left:100px;
+  box-shadow: 2px 0px 5px 4px rgba(172, 173, 173, 0.514);
+}
+.box2{
+  width: auto;
+  height: 450px;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+.personalDetailsBlock{
+  position: relative;
+   
+}
+
+.personalDetails{
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+  text-align: justify;
+  box-shadow: 5px 2px 4px 0px rgba(126, 152, 163, 0.685);
+  border-radius: 12.5px 75px;
+
+}
+
+.personalDetailsTitle{
+  padding-bottom: 10px;
+  padding-right: 150px;
+}
+
+.fieldTitle{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto Slab', serif;
+}
+
+.fieldValue{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto Slab', serif;
+}
+
+.instagramContainer{
+  margin-top: 20px;
+  margin: 20px;
+}
+
+.instagramTopPhotos{
+  box-shadow: 0px 1.8px 4px 0px rgba(158, 121, 130, 0.911);
+}
+.instagramTopPhotos .row{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.instagramTopPhotos .col-md-3 img{
+  width: 100%;
+  height: 375px;
+}
+.healthAndFitness{
+  position: relative;
+}
+.fitnessBlock{
+  height: 450px;
+  position: relative;
+  margin-top: 5%;
+}
+.fitTipBox{
+  width: 70%;
+  height: 300px;
+  box-shadow: 0px 2px 4px 0px rgba(126, 152, 163, 0.685);
+  border-radius: 10px;
+  position: absolute;
+  top: 25px;
+  left: 0px;
+}
+.fitTipBox h3{
+  text-align: center;
+}
+.fitTipBox p{
+  margin: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.fitTipImage{
+  position: absolute;
+  top: 0px;
+  right: 25px;
+  width: 30%;
+  box-shadow: 0px 4px 8px 0px rgba(126, 152, 163, 0.685);
+  border-radius: 10px;
+}
+.fitTipImage img{
+  border-radius: 10px;
+}
+
+.underline{
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 1px solid black;
+}
+
+@media only screen and (max-width: 576px) {
+  .box1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -10px;
+    left:0px;
+    box-shadow: 2px 0px 5px 4px rgba(172, 173, 173, 0.514);
+  }
+  .box2{
+    width: auto;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 0%;
+    padding-top: 10px;
+  }
+  .personalDetails{
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    text-align: justify;
+    box-shadow: 5px 2px 4px 0px rgba(126, 152, 163, 0.685);
+    border-radius: 12.5px 75px;
+  
+  }
+  
+  .personalDetailsTitle{
+    
+    padding-bottom: 0px;
+    padding-right: 0px;
+  }
+  .fieldTitle{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  .fieldValue{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Roboto Slab', serif;
+  }
+  .hiddenItemsforMobile{
+    display: none;
+  }
+
+  .fitnessBlock{
+    height: 370px;
+  }
+  .fitTipBox p{
+    font-size: 14px;
+  }
+}
