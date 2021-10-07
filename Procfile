@@ -1,1 +1,1 @@
-web:gunicorn personalVlogs.wsgi
+web: gunicorn personalVlogs.wsgi
