@@ -6,14 +6,12 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .blockTitle{
-  margin-top: 5%;
   margin-bottom: 3%;
-  box-shadow: 0px 1.8px 4px 0px rgba(158, 121, 130, 0.911);
+  text-shadow: 5.5px 7px 7.5px rgba(226, 215, 218, 0.911);
   font-family: 'Courgette', cursive;
   border-radius: 10px;
-
+  font-size: 50px;
 }
 .personalDetailsContainer{
   position: relative;
@@ -34,10 +32,8 @@
   margin-top: 5%;
 }
 .personalDetailsBlock{
-  position: relative;
-   
+  position: relative;   
 }
-
 .personalDetails{
   width: 100%;
   margin-top: 20px;
@@ -47,34 +43,28 @@
   text-align: justify;
   box-shadow: 5px 2px 4px 0px rgba(126, 152, 163, 0.685);
   border-radius: 12.5px 75px;
-
 }
-
 .personalDetailsTitle{
   padding-bottom: 10px;
   padding-right: 150px;
 }
-
 .fieldTitle{
   font-size: 20px;
   font-weight: 500;
   font-family: 'Roboto Slab', serif;
 }
-
 .fieldValue{
   font-size: 18px;
   font-weight: 500;
   font-family: 'Roboto Slab', serif;
 }
-
 .instagramContainer{
   margin-top: 20px;
   margin: 20px;
 }
-
 .instagramTopPhotos{
   margin-top: 5%;
-  box-shadow: 0px 1.8px 4px 0px rgba(158, 121, 130, 0.911);
+  box-shadow: 0px 1.8px 8px 0px rgba(185, 176, 179, 0.911);
 }
 .instagramTopPhotos .row{
   padding-top: 25px;
@@ -121,7 +111,6 @@
 .fitTipImage img{
   border-radius: 10px;
 }
-
 .underline{
   margin-left: 20%;
   margin-right: 20%;
@@ -133,6 +122,9 @@
     height: 200px;
     background-position:inherit;
     background-size: cover;
+  }
+  .blockTitle{
+    font-size: 40px;
   }
   .box1{
     width: 100px;
@@ -160,11 +152,8 @@
     text-align: justify;
     box-shadow: 5px 2px 4px 0px rgba(126, 152, 163, 0.685);
     border-radius: 12.5px 75px;
-  
   }
-  
-  .personalDetailsTitle{
-    
+  .personalDetailsTitle{ 
     padding-bottom: 0px;
     padding-right: 0px;
   }
@@ -173,7 +162,6 @@
     font-weight: 500;
     font-family: 'Roboto Slab', serif;
   }
-  
   .fieldValue{
     font-size: 12px;
     font-weight: 500;
@@ -182,7 +170,6 @@
   .hiddenItemsforMobile{
     display: none;
   }
-
   .fitnessBlock{
     height: 370px;
   }
