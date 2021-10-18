@@ -16,6 +16,7 @@
 <link rel="stylesheet" href="{% static 'css/base.css' %}">
 <link rel="stylesheet" href="{% static 'css/homePage.css' %}">
 <link rel="stylesheet" href="{% static 'css/healthAndFitness.css' %}">
+<link rel="stylesheet" href="{% static 'css/youtubePage.css' %}">
 <title>Anuj Vlogs</title>
 </head>
 <body>
@@ -82,16 +83,16 @@
             <h5 class="text-uppercase">Quick Access</h5>
             <ul class="list-unstyled ">
               <li>
-                <a href="#!">Home</a>
+                <a href="{% url 'index' %}">Home</a>
               </li>
               <li>
                 <a href="{% url 'healthAndFitness' %}">Health and Fitness</a>
               </li>
               <li>
-                <a href="#!">Youtube shorts</a>
+                <a href="{% url 'youtubePage' %}">Youtube shorts</a>
               </li>
               <li>
-                <a href="#!">Vlogs</a>
+                <a href="{% url 'youtubePage' %}">Vlogs</a>
               </li>
             </ul>
 

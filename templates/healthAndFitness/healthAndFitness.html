@@ -8,37 +8,17 @@
     {% block blogContentContainer %}
       <div class="container-fluid blogsListCotnainer">
         <div class="row">
-          <div class="col-md-5 blogsListSmallBox">
-            <a href="{% url 'blogPage' %}">
+          {% if blogs %}
+          {% for blogs in blogs %}
+          <div class="col-md-5 blogsListSmallBox"> 
+            <a href="{% url 'blogPage' pk=blogs.id %}">
               <div class="blogsListImageBox">
                 <img class=" img-thumbnail" src="{% static 'img/blogPhoto.jpg' %}" >
               </div>
-            </a>
+            </a> 
           </div>
-          <div class="col-md-7 blogsListBigBox">
-            <a href="{% url 'blogPage' %}">
-              <div class="blogsListImageBox">
-                <img class=" img-thumbnail" src="{% static 'img/blogPhoto.jpg' %}" >
-              </div>
-            </a>
-          </div>
-          </div>
-          <div class="row">
-            <div class="col-md-7 blogsListBigBox">
-              <a href="{% url 'blogPage' %}">
-                <div class="blogsListImageBox">
-                  <img class=" img-thumbnail" src="{% static 'img/blogPhoto.jpg' %}" >
-                </div>
-              </a>
-            </div>
-            <div class="col-md-5 blogsListSmallBox">
-              <a href="{% url 'blogPage' %}">
-                <div class="blogsListImageBox">
-                  <img class=" img-thumbnail" src="{% static 'img/blogPhoto.jpg' %}" >
-                </div>
-              </a>
-            </div>
-          </div>
+          {% endfor %}
+          {% endif %}
         </div>
     {% endblock %}
   </div>
