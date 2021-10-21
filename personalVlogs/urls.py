@@ -8,4 +8,4 @@ urlpatterns = [
     path('',include('vlogApp.urls')),
     path('',include('healthAndFitness.urls')),
     path('',include('youtube.urls')),
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+] + static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

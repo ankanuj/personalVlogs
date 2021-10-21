@@ -1,5 +1,122 @@
 {% extends 'base.html'%}
 {% load static %}
 {% block content %}
-<h1>Page Under progress</h1>
+<div class="youtubeContentContainer container-fluid">
+  <div class="ytShortsVideos container"> 
+    <h1 class="ytTitle text-center">YouTube Shorts</h1> 
+    <!--Youtube Shorts Videos-->
+    <div class="row ytShortsBox bg-light">
+      <div class="col-md-3">
+        <iframe class="ytShorts" 
+        src="https://www.youtube.com/embed/z26f2siEVMg"
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+      </div>
+      <div class="col-md-3">
+        <iframe class="ytShorts" 
+        src="https://www.youtube.com/embed/zqezYbkeZc8"
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+      </div>
+      <div class="col-md-3">
+        <iframe class="ytShorts" 
+        src="https://www.youtube.com/embed/FRQWgMs36hQ"
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+      </div>
+      <div class="col-md-3">
+        <iframe class="ytShorts" 
+        src="https://www.youtube.com/embed/P-j2B0Sg4RQ"
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+      </div>
+      <div class="col-md-3 d-sm-none">
+        <iframe class="ytShorts" 
+        src="https://www.youtube.com/embed/dTos_1zQY54"
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+      </div>
+      <div class="col-md-3 d-sm-none">
+        <iframe class="ytShorts" 
+        src="https://www.youtube.com/embed/hPl1hwurWnE" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+      </div>
+      <div class="col-md-3 d-sm-none">
+        <iframe class="ytShorts" 
+        src="https://www.youtube.com/embed/Y6ISD2Zrix8"
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+      </div>
+      <div class="col-md-3 d-sm-none">
+        <iframe class="ytShorts" 
+        src="https://www.youtube.com/embed/rGsHpgkxi1Y"
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+      </div>
+    </div>
+
+    <h1 class="ytTitle text-center">Vlogs</h1>
+    <!--Youtube Vlogs Videos-->
+    <div class="container bg-light ytVlogsBox">
+      <div class="row">
+        <div class="col-md-6">
+          <iframe class="ytVlogs" 
+            src="https://www.youtube.com/embed/T_LTo-iuOTg" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="col-md-6">
+          <iframe class="ytVlogs" 
+            src="https://www.youtube.com/embed/UHttnZewSs8"  
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+    <!--Youtube Vlogs Video ends here-->
+    <div class="card mt-5">
+      <div class="card-body text-center">
+        <h1 class="subscriptionBoxText">For more videos subscribe to Channel.</h1>
+        <h1 class="subscriptionBoxText">
+          <a class="btn-floating btn-tw mx-1 nav-link text-black" href="https://www.youtube.com/channel/UCeHiXktLlbHiJ0vOLEAauSw" target="_black">
+          Subscribe
+          <i class="fab fa-youtube" style="
+            color:#FF0000;" ></i>
+          </a>
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
 {% endblock %}
