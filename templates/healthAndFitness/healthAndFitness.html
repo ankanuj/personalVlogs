@@ -2,9 +2,8 @@
 {% load static %}
 {% block content %}
 <div class="contianer-fluid healthAndFitnessContainer">
-  <div class="container healthAndFintessContentBox bg-white">
+  <div class="container healthAndFintessContentBox">
     <h2 class="text-center pt-3 blogsPageTitle">Blogs and tips related to health and fitness.</h2>
-    <hr>
     {% block blogContentContainer %}
       <div class="container-fluid blogsListCotnainer">
         <div class="row">
@@ -13,7 +12,7 @@
           <div class="col-md-5 blogsListSmallBox"> 
             <a href="{% url 'blogPage' pk=blogs.id %}">
               <div class="blogsListImageBox">
-                <img class=" img-thumbnail" src="{% static 'img/blogPhoto.jpg' %}" >
+                <img class=" img-thumbnail" src="{{ blogs.img.url }}" >
               </div>
             </a> 
           </div>
