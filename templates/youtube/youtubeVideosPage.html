@@ -1,7 +1,7 @@
 {% extends 'base.html'%}
 {% load static %}
 {% block content %}
-<div class="youtubeContentContainer container-fluid">
+<div class="youtubeContentContainer container-fluid pb-5">
   <div class="ytShortsVideos container"> 
     <h1 class="ytTitle text-center">YouTube Shorts</h1> 
     <!--Youtube Shorts Videos-->
@@ -79,7 +79,7 @@
       </iframe>
       </div>
     </div>
-
+  </div>
     <h1 class="ytTitle text-center">Vlogs</h1>
     <!--Youtube Vlogs Videos-->
     <div class="container bg-light ytVlogsBox">
@@ -105,7 +105,7 @@
       </div>
     </div>
     <!--Youtube Vlogs Video ends here-->
-    <div class="card mt-5">
+    <div class="container card mt-5">
       <div class="card-body text-center">
         <h1 class="subscriptionBoxText">For more videos subscribe to Channel.</h1>
         <h1 class="subscriptionBoxText">
@@ -117,6 +117,5 @@
         </h1>
       </div>
     </div>
-  </div>
 </div>
 {% endblock %}
