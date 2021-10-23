@@ -68,8 +68,12 @@ WSGI_APPLICATION = 'personalVlogs.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'ddbeu59j832gt4',
+        'USER': 'xzkrdrdrftxkij',
+        'PASSWORD': 'b24e8c8c0ac1d79a88282766422cc9f83e76bc259f0d7ef8623dda9628827781',
+        'HOST': 'ec2-50-17-255-244.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 

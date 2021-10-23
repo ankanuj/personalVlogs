@@ -38,7 +38,6 @@
             {%endif%}
             aria-current="page" href="{% url 'index' %}">Home</a>
           </li>
-          <!--
           <li class="nav-item">
             <a {%if 'health/and/fitness' in request.path%}
             class="nav-link active"
@@ -46,7 +45,7 @@
             class="nav-link "
             {%endif%}
             href="{% url 'healthAndFitness' %}">Health&Fitness</a>
-          </li>-->
+          </li>
           <li class="nav-item">
             <a {%if 'anuj/youtube/videos' in request.path %}
             class="nav-link active"
@@ -86,10 +85,9 @@
               <li>
                 <a href="{% url 'index' %}">Home</a>
               </li>
-              <!--
               <li>
                 <a href="{% url 'healthAndFitness' %}">Health and Fitness</a>
-              </li>-->
+              </li>
               <li>
                 <a href="{% url 'youtubePage' %}">Youtube shorts</a>
               </li>
