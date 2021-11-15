@@ -9,7 +9,7 @@
         <div class="row">
           {% if blogs %}
           {% for blogs in blogs %}
-          <div class="col-md-5 blogsListSmallBox"> 
+          <div class="col-md-4 blogsListSmallBox"> 
             <a href="{% url 'blogPage' pk=blogs.id %}">
               <div class="blogsListImageBox">
                 <img class=" img-thumbnail" src="{{ blogs.img.url }}" >
