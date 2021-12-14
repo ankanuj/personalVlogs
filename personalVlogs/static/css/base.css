@@ -3,15 +3,36 @@ a{
   color: black;
 }
 .navbar{
-  font-weight: 600;
-  font-size: 22px;
-  height: 75px;
-  background-color: none;
+  background-color: rgba(10, 10, 10, 0.6);
   box-shadow: 0px 0px 7.5px 0px ;
+  padding-top: 0%;
+}
+.navbar .navbar-nav .nav-item a{
+  font-size: 18px;
+  color:white;
+}
+.navbar .navbar-nav .nav-item a::after{
+  content: '';
+  width: 0;
+  height: 2px;
+  display: block;
+  background-color: white;
+  transition: width .5s ease-in;
+}
+.navbar .navbar-nav .nav-item a:hover::after {
+  width: 100%;
 }
 .navbar-brand{
-  font-size: 34px;
+  color: white;
+  font-size: 24px;
   font-family: 'Courgette', cursive;
+}
+.navbar-brand:hover {
+  color: white;
+}
+.navbar .navbar-toggler {
+  color: white;
+  border-color: white;
 }
 footer{
   height: auto;
