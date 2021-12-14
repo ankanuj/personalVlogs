@@ -1,0 +1,54 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+.navbar{
+  background-color: rgba(10, 10, 10, 0.6);
+  box-shadow: 0px 0px 7.5px 0px ;
+}
+.nav-item {
+  font-size: 18px;
+  color:white;
+}
+.nav-item::after{
+  content: '';
+  width: 0;
+  display: block;
+  background-color: white;
+  transition: width .5s ease-in;
+}
+.nav-item:hover::after {
+  width: 4px;
+}
+.navbar-brand{
+  color: white;
+  font-size: 24px;
+  font-family: 'Courgette', cursive;
+}
+footer{
+  height: auto;
+  box-shadow: 0px -1.8px 5.5px 0px rgba(214, 201, 204, 0.911);
+}
+.footerHeading{
+  margin-top: 10%;
+  font-size: 30px;
+  font-family: 'Courgette', cursive;
+}
+
+.footerLinks{
+  margin-top: 2.5%;
+}
+.footerLinks h5{
+  font-weight: 700;
+}
+.footerLinks li{
+  font-weight: 450;
+  font-size: 20px;
+}
+.footerLinks i{
+  font-size: 35px;
+}
+
+@media only screen and (max-width: 576px) {
+  
+}
